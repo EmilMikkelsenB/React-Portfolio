@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "homepage": "emilmikkelsen.com",
+    "homepage": "https:/emilmikkelsen.com",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "vite build",
