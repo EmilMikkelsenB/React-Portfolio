@@ -1,8 +1,6 @@
-import { useEffect } from 'react';
 import './App.css'
 import Bento from './components/bento.jsx'
 import Projects from './components/projects';
-import { typeDeteteEffect } from "./components/textChange"
 import {
   BrowserRouter as Router,
   Route,
