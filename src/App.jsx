@@ -12,14 +12,6 @@ import {
 
 
 function App() {
-  useEffect(() => {
-    document.body.style.backgroundColor = "#212124"
-  });
-
-  useEffect(() => {
-    typeDeteteEffect()
-  });
-
 
 
   return (

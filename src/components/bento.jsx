@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from './card';
 import GH from '../assets/icons8-github.svg';
 import Linkedin from '../assets/icons8-linkedin.svg';
 import { useNavigate } from 'react-router-dom';
+import { typeDeteteEffect } from "./textChange"
+
 export default function Bento() {
     const navigate = useNavigate();
 
@@ -10,6 +12,15 @@ export default function Bento() {
         // Use navigate to redirect to another page
         navigate('/projects'); // Updated path without the file extension
     };
+
+    useEffect(() => {
+        document.body.style.backgroundColor = "#212124"
+    }, []);
+
+    useEffect(() => {
+        typeDeteteEffect()
+
+    }, [])
 
 
     return (
