@@ -39,7 +39,7 @@ export default function Bento() {
                         <div className='bg-blue-400 rounded-lg shadow-xl min-h-[50px] w-full p-4'><button onClick={redirectToAnotherPage}>Projects</button></div>
                     </div>
                     <div className='row-span-0 min-h-[50px] '><Card>Im&nbsp;proficient&nbsp;at: <span id='skills'></span></Card></div>
-                    <div className='md:col-span-2 md:row-span-3 col-span-1 row-span-4 md:flex-1 flex'><Card> <span className='text-2xl'>Work experience<br /></span>
+                    <div className='md:col-span-2 md:row-span-3 col-span-1 row-span-4'><Card> <span className='text-2xl'>Work experience<br /></span>
                         <span className='text-blue-500'>Currently: Kaliber bar - bartending <br /><br /></span>
                         Frick och Hagberg Foodtruck - Foodtruck/Bar: customer service, cash management, bartending<br /><br />
                         K karaoke Uppsala - customer service, bartending<br /><br />
